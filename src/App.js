@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Router>
-        <Box width="400px">
+        <Box width="400px" sx={{ width: { xl: '1488px' } }} m="auto">
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
